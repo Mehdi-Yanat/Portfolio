@@ -82,7 +82,7 @@ const Navbar = () => {
           className={
             nav
               ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
-              : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
+              : 'fixed left-[-100%] top-0 p-0 ease-in duration-500'
           }
         >
           <div>
@@ -135,7 +135,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/mehdi-yanat-aba71a213/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -144,7 +144,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/Mehdi-Yanat'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -160,14 +160,14 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href='/resume'>
+                <a href='/mehdi-CV.pdf'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
                     <BsFillPersonLinesFill />
                   </div>
-                </Link>
+                </a>
               </div>
             </div>
           </div>

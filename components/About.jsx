@@ -14,7 +14,7 @@ const About = () => {
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
            I'm Mehdi Yanat - a FullStack developer ,
-           I have worked in tech and on the web for over 1 years with experience ranging from JavaScript, 
+           I have worked in tech and on the web for over 1 year with experience ranging from JavaScript, 
            CSS, Accessibility, Technical Writing
           </p>
           <p className='py-2 text-gray-600'>
@@ -23,7 +23,7 @@ const About = () => {
             enthused with making websites interactive.
             I love sharing and contributing to the tech community and it has become a significant part of my career. 
             I'm consistently engaging and advocating for open and inclusive developer communities and love sharing my knowledge and experience When I'm not coding, 
-            you can find me geeking about vedio-editing, doing sports, and exploring or learning new skills
+            you can find me geeking about video-editing, working out, and exploring or learning new skills.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
