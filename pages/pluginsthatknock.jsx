@@ -1,15 +1,15 @@
 import Image from 'next/image';
 import React from 'react';
-import techiImg from '../public/assets/projects/tachivation.png';
+import pluginImg from '../public/assets/projects/pluginsthatknock.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Head from 'next/head';
 
-const twitch = () => {
+const pluginsthatknock = () => {
   return (
     <div className='w-full'>
        <Head>
-        <title>Projects | Techivation</title>
+        <title>Projects | Pluginsthatknock</title>
         <meta name="description" content="I’m a Full-Stack web developer specializing in building (and occasionally designing) exceptional digital experiences." />
         <link rel="icon" href="/logo (1).png" />
       </Head>
@@ -19,12 +19,12 @@ const twitch = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={techiImg}
+          src={pluginImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Techivation</h2>
-          <h3>Next JS / SCSS </h3>
+          <h2 className='py-2'>Pluginsthatknock</h2>
+          <h3>Next JS</h3>
         </div>
       </div>
 
@@ -34,11 +34,11 @@ const twitch = () => {
           <h2>Overview</h2>
           <p>
             This application was built using NEXT.JS and is styled with
-            SCSS. The application is hosted and it's live store.
+            tailwindcss. The application is hosted and it's live store.
             This is a mobile responsive e-commerce app
           </p>
           <a
-            href='https://techivation.com/'
+            href='https://pluginsthatknock.com/'
             target='_blank'
             rel='noreferrer'
           >
@@ -54,7 +54,10 @@ const twitch = () => {
                 <RiRadioButtonFill className='pr-1' /> Next.JS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> SCSS
+                <RiRadioButtonFill className='pr-1' /> Tailwind
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Shopify API / GraphQl
               </p>
             </div>
           </div>
@@ -67,4 +70,4 @@ const twitch = () => {
   );
 };
 
-export default twitch;
+export default pluginsthatknock;

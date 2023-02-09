@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import React from 'react';
-import cryptoImg from '../public/assets/projects/hablamos.png';
+import hablamosImg from '../public/assets/projects/hablamos.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Head from 'next/head';
 
-const crypto = () => {
+const hablamos = () => {
   return (
     <div className='w-full'>
        <Head>
@@ -19,7 +19,7 @@ const crypto = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={cryptoImg}
+          src={hablamosImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -85,4 +85,4 @@ const crypto = () => {
   );
 };
 
-export default crypto;
+export default hablamos;
