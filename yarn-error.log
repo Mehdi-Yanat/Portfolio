@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarn install
+  /usr/bin/node /usr/bin/yarn add sharp
 
 PATH: 
   /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
@@ -14,8 +14,15 @@ Platform:
   linux x64
 
 Trace: 
-  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
-      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+  Error: connect ENETUNREACH 104.16.26.34:443 - Local (0.0.0.0:0)
+      at internalConnect (node:net:1041:16)
+      at defaultTriggerAsyncIdScope (node:internal/async_hooks:464:18)
+      at emitLookup (node:net:1187:9)
+      at /usr/lib/node_modules/yarn/lib/cli.js:103587:28
+      at /usr/lib/node_modules/yarn/lib/cli.js:103496:13
+      at RawTask.module.exports.RawTask.call (/usr/lib/node_modules/yarn/lib/cli.js:79584:19)
+      at flush (/usr/lib/node_modules/yarn/lib/cli.js:79666:29)
+      at processTicksAndRejections (node:internal/process/task_queues:78:11)
 
 npm manifest: 
   {
@@ -29,6 +36,7 @@ npm manifest:
       "lint": "next lint"
     },
     "dependencies": {
+      "crypto": "^1.0.1",
       "next": "12.1.6",
       "react": "18.1.0",
       "react-dom": "18.1.0",
