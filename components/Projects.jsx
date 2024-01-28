@@ -4,6 +4,7 @@ import React from 'react';
 import hablamosImg from '../public/assets/projects/hablamos.png';
 import techiImg from '../public/assets/projects/tachivation.png'
 import pluginsthatknock from '../public/assets/projects/pluginsthatknock.png'
+import topspin from '../public/assets/projects/topspin.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -15,7 +16,13 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-         <ProjectItem
+          <ProjectItem
+            title='Topspin Tennis Academy'
+            backgroundImg={topspin}
+            projectUrl='/topspin'
+            tech='Next JS'
+          />
+          <ProjectItem
             title='Pluginsthatknock'
             backgroundImg={pluginsthatknock}
             projectUrl='/pluginsthatknock'
