@@ -33,8 +33,7 @@ const twitch = () => {
                     <h2>Overview</h2>
                     <p>
                         This application was built using NEXT.JS and is styled with
-                        SCSS. The application is hosted and it's live store.
-                        This is a mobile responsive e-commerce app
+                        SCSS for Tennis Academy .
                     </p>
                     <a
                         href='https://topspin-front.vercel.app/'
